@@ -1,6 +1,6 @@
 # Clicky Game: The Llama Drama Edition
 
-Bamazon is a CLI app that allows the customers select an item from a local database and allows the customer to select a specifiy quantity of that item they require.  It also manages the realtime quantity of the item in the local database.
+A memory game created using React, front-end library.  This app was used to understand component states and UI components from React, and how the components responds to users events.
 
 ## Getting Started
 
