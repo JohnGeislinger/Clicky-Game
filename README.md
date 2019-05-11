@@ -9,7 +9,6 @@ A memory game created using React, front-end library.  This app was used to unde
 Follow the link below to the fully deployed application:
 https://johngeislinger.github.io/Clicky-Game/
 
-
 ## To Download and Play Locally
 
 The GitHub Repo must be cloned and saved down to your computer.
@@ -37,8 +36,8 @@ After the program loads on localhost:3000 follow the prompts.
 
 ## Deployment
 
-Deployed to [GitHub Pages](https://johngeislinger.github.io/Clicky-Game/).
-Repo on [GitHub](https://github.com/JohnGeislinger/Clicky-Game).
+* Deployed to [GitHub Pages](https://johngeislinger.github.io/Clicky-Game/).
+* Repo on [GitHub](https://github.com/JohnGeislinger/Clicky-Game).
 
 ## License
 
