@@ -1,14 +1,12 @@
 import React from "react";
 import "./style.css";
 
-const ImageCard = props => {
+const Wrapper = props => {
   return (
-    <div className="card">
-      <div className="img-container">
-        <img alt={props.name} src={props.image} />
-      </div>
+    <div className="wrapper">
+      {props.children}
     </div>
   );
 };
 
-export default ImageCard;
+export default Wrapper;

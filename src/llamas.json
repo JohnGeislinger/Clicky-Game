@@ -1,0 +1,62 @@
+[
+    {
+        "id": 1,
+        "image": "/assets/images/80s-llama.png",
+        "clicked": false
+    },
+    {
+        "id": 2,
+        "image": "/assets/images/bieber-llama.png",
+        "clicked": false
+    },
+    {
+        "id": 3,
+        "image": "/assets/images/brown-nosing-llama.png",
+        "clicked": false
+    },
+    {
+        "id": 4,
+        "image": "/assets/images/crazy-llama.png",
+        "clicked": false
+    },
+    {
+        "id": 5,
+        "image": "/assets/images/trucker-llama.png",
+        "clicked": false
+    },
+    {
+        "id": 6,
+        "image": "/assets/images/emo-llama.png",
+        "clicked": false
+    },
+    {
+        "id": 7,
+        "image": "/assets/images/hipster-llama.png",
+        "clicked": false
+    },
+    {
+        "id": 8,
+        "image": "/assets/images/hungry-llama.png",
+        "clicked": false
+    },
+    {
+        "id": 9,
+        "image": "/assets/images/llama-in-sunglasses.png",
+        "clicked": false
+    },
+    {
+        "id": 10,
+        "image": "/assets/images/mad-llama.png",
+        "clicked": false
+    },
+    {
+        "id": 11,
+        "image": "/assets/images/screaming-llama.png",
+        "clicked": false
+    },
+    {
+        "id": 12,
+        "image": "/assets/images/smiling-llama.png",
+        "clicked": false
+    }
+]

@@ -1,47 +1,61 @@
-.card {
-  background: #fff;
-  border-radius: 2px;
-  height: 325px;
-  margin: 1rem;
-  position: relative;
-  width: 325px;
-  box-shadow: 0 3px 6px #999, 0 3px 6px #999;
-  text-align: left;
+.navbar {
+  background: #1c2b83;
+  min-height: 70px;
+  position: fixed;
+  width: 100%;
+  box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
+  color: white;
+  font-size: calc(10px + (24 - 10) * (100vw - 320px) / (1200 - 400));
+  z-index: 99;
+  white-space: nowrap;
 }
 
-.card > .img-container {
-  height: 60%;
-  overflow: hidden;
-  text-align: center;
-  background:#6CADDC;
-}
-.card > .img-container > img {
-  width: 60%
+.navbar ul {
+  margin: 0;
+  padding: 0;
 }
 
-.card > .content {
-  padding-left: 1rem;
-  padding-right: 1rem;
-  font-size: 15px;
-}
-
-.card > .content > ul {
+.navbar li {
   list-style-type: none;
 }
 
-.card > .content > ul > li {
-  margin-top: 18px;
+.itemLeft {
+  display: inline-block;
+  padding: 26px 0px;
+  width: 25%;
+  text-align: center;
 }
 
-.card > .remove {
-  color: #ff1744;
-  font-size: 48px;
-  position: absolute;
-  top: -20px;
-  right: 5px;
-  cursor: pointer;
+.itemCenter {
+  display: inline-block;
+  padding: 26px 0px;
+  width: 50%;
+  text-align: center;
 }
 
-.card > .remove:hover {
-  color: #d50000;
+.itemRight {
+  display: inline-block;
+  padding: 26px 0px;
+  width: 25%;
+  text-align: center;
+}
+
+.navbar a {
+  text-decoration: none;
+  color: white;
+  font-weight: 900;
+}
+
+@media (max-width: 420px) {
+  .navbar li:first-child {
+    width: 25%;
+  }
+
+  .navbar li:nth-child(2) {
+    width: 35%;
+  }
+
+  .navbar li:last-child {
+    width: 40%;
+  }
 }
